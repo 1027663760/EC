@@ -1,0 +1,33 @@
+#define MANIFEST 24
+#define IDI_MAINICON 129
+#define IDR_MANIFEST1 1
+#define IDD_对话框1 1000
+#define IDC_标签1 1001
+#define 编辑框_按键延时 1002
+#define 按钮_应用 1003
+#define 按钮_取消 1004
+#define IDC_标签2 1005
+#define IDC_标签3 1006
+#define 编辑框_按键间隔 1007
+
+LANGUAGE 4,2
+
+IDI_MAINICON ICON DISCARDABLE "res/icon.ico"
+
+IDR_MANIFEST1 MANIFEST "res/manifest.xml"
+
+IDD_对话框1 DIALOGEX 10,10,103,39
+CAPTION "X键 连发配置"
+FONT 11,"微软雅黑",400,0,134
+STYLE NOT 0x10000000|0x00C80800
+EXSTYLE 0x00000008
+BEGIN
+  CONTROL "请输入您需要的连发速度(毫秒)",IDC_标签1,"Static",0x50000201,2,2,98,10
+  CONTROL "30",编辑框_按键延时,"Edit",0x50002001,38,14,20,10,0x00000200
+  CONTROL "应用",按钮_应用,"Button",0x50004F00,62,14,34,10
+  CONTROL "取消",按钮_取消,"Button",0x50004F00,62,26,34,10
+  CONTROL "按键过程: ",IDC_标签2,"Static",0x5000030C,6,14,32,10
+  CONTROL "按键间隔: ",IDC_标签3,"Static",0x5000030C,6,26,32,10
+  CONTROL "10",编辑框_按键间隔,"Edit",0x50002001,38,26,20,10,0x00000200
+END
+
