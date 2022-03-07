@@ -1,0 +1,57 @@
+#define MANIFEST 24
+#define IDD_对话框1 1000
+#define IDC_标签1 1001
+#define IDC_组合框1 1002
+#define IDC_组合框2 1003
+#define IDC_标签2 1004
+#define IDC_按钮1 1007
+#define IDC_标签3 1008
+#define IDC_编辑框3 1009
+#define IDC_编辑框4 1010
+#define IDC_标签4 1011
+#define IDC_编辑框5 1012
+#define IDC_标签5 1013
+#define IDC_编辑框6 1014
+#define IDC_标签6 1015
+#define IDC_标签7 1016
+#define IDC_编辑框7 1017
+#define IDC_按钮2 1005
+#define IDC_按钮3 1006
+#define IDC_单选框1 1018
+#define IDC_单选框2 1019
+#define IDC_编辑框1 1020
+#define IDC_标签8 1021
+#define IDR_XPMANIFEST1 1
+
+LANGUAGE 4,2
+
+IDD_对话框1 DIALOGEX -2,-16,597,358
+CAPTION "黑月 HTTP接口调试工具     精易论坛：凌哥"
+FONT 9,"宋体",400,0,0
+STYLE 0x12CA0840
+BEGIN
+  CONTROL "返回编码：",IDC_标签1,"Static",0x52000202,2,8,56,13
+  CONTROL "",IDC_组合框1,"ComboBox",0x52000003,60,8,55,54
+  CONTROL "",IDC_组合框2,"ComboBox",0x52000003,159,8,55,54
+  CONTROL "请求方式：",IDC_标签2,"Static",0x52000200,119,8,40,13
+  CONTROL "提交调试",IDC_按钮1,"Button",0x52000000,532,7,56,16
+  CONTROL "请求地址：",IDC_标签3,"Static",0x52000202,2,32,56,11
+  CONTROL "https://www.9ifuzhu.com/",IDC_编辑框3,"Edit",0x52000084,60,29,393,16,0x00000200
+  CONTROL "",IDC_编辑框4,"Edit",0x52201044,60,51,528,43,0x00000200
+  CONTROL "POST提交：",IDC_标签4,"Static",0x52000202,2,67,56,11
+  CONTROL "",IDC_编辑框5,"Edit",0x52201044,60,102,528,57,0x00000200
+  CONTROL "HTTP协议头：",IDC_标签5,"Static",0x52000202,2,126,56,11
+  CONTROL "",IDC_编辑框6,"Edit",0x52201044,60,166,528,31,0x00000200
+  CONTROL "提交Cookie：",IDC_标签6,"Static",0x52000202,2,177,56,11
+  CONTROL "返回数据：",IDC_标签7,"Static",0x52000202,2,271,56,11
+  CONTROL "",IDC_编辑框7,"Edit",0x52201044,60,204,528,145,0x00000200
+  CONTROL "插入时间戳到地址栏",IDC_按钮2,"Button",0x52000000,345,7,86,16
+  CONTROL "插入时间戳到数据栏",IDC_按钮3,"Button",0x52000000,436,7,86,16
+  CONTROL "现行时间戳",IDC_单选框1,"Button",0x52000009,230,9,55,11
+  CONTROL "随机时间戳",IDC_单选框2,"Button",0x52000009,288,9,55,11
+  CONTROL "",IDC_编辑框1,"Edit",0x52000084,498,29,91,16,0x00000200
+  CONTROL "代理IP：",IDC_标签8,"Static",0x52000202,458,32,36,11
+END
+
+IDR_XPMANIFEST1 MANIFEST "xpmanifest.xml"
+
