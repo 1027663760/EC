@@ -1,0 +1,3 @@
+凌哥E编程模块中二次封装了大量第三方开源项目，这个目录里面是这些项目附带的开源协议
+
+Lingge E programming module has encapsulated a large number of third-party open source projects for the second time, and this directory contains the open source protocols attached to these projects
