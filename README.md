@@ -11,3 +11,6 @@
 QQ：1027663760 Q群：1013105；请勿使用本模块编写违反法律的软件，本人不对此提供任何技术支持。
 #### 模块详细更新记录
 https://www.1027663760.com
+
+#### Licenses
+https://gitee.com/a1027663760/EC/tree/master/License-s
