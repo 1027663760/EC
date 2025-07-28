@@ -1,7 +1,0 @@
-#define MANIFEST 24
-#define IDR_XPMANIFEST1 1
-
-LANGUAGE 4,2
-
-IDR_XPMANIFEST1 MANIFEST "xpmanifest.xml"
-
